@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="hk.ico">
+    <title>HFleming | Web Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Dancing+Script&family=EB+Garamond:wght@600&family=Inter&family=Kaushan+Script&family=Lobster&family=Montserrat&family=Poppins&family=Roboto:wght@400;700&family=Signika+Negative&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    
+  </head>
+<body>
+  <!-- NavBar -->
+  <header>
+    <a href="#" class="logo">Portfolio</a>
+    <div class="toggle" onclick="toggleMenu();"></div>
+    <ul class="menu">
+      <li><a href="#about" onclick="toggleMenu();">About</a></li>
+      <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+      <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+    </ul>
+    </header>
+    <!-- Main Page -->
+    <div class="container-main">
+        <div id="large-header" class="large-header">
+                <canvas id="demo-canvas"width="400" height="300"></canvas>
+            </div>
+            <div class="container-text">        
+                    <h1>Hanna Fleming</h1>
+                    <p id="par">Front End Developer</p> 
+            <div class="container-btn">
+                <a class="btn" href="#work" id="bigBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    View my work
+                </a>
+                <a class="btn" href="#contact" id="bigBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Let's work together
+                </a>
+
+            </div>
+        </div>
+    </div>
+<!-- About -->
+    <div class="header">
+        <h2  id="about">About Me</h2>
+    </div>
+
+<div class="content">
+    <div class="contentbox">
+        <p class="parAbout">Hi! My name is Hanna and I’m front-end web developer from Central Florida. 
+        I design and code beautifully simple things, and I love what I do. I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
+        <br>
+        <br>
+        <button id="resume"><a href="1.docx">Download Resume</a></button> 
+    </div>
+    <div class="w50">
+        <img  class="myPic" src="1.jpg" width="600px"> 
+        </div>
+    </div>
+    <!-- Project-->
+    <div id="header" >
+        <h2 id="work">My Projects</h2>
+    </div>
+
+    <div class="container-project">     
+        <img src="catering.jpeg" alt="catering" width="400px">
+    <div class="card">
+        <span class="text">Catering Website</span>
+        <button><a href="https://christopher-may.glitch.me/" target="_blank">View Project</a></button>
+    </div>
+    </div>
+<div class="container-project">
+    <img src="volunteer (2).jpg" alt="volunteer" width="350px">
+    <div class="card">
+        <span class="text">Volunteer Website </span>
+        <button><a href="https://volunteer-web.glitch.me/" target="_blank"> View Project</a></button>
+    </div>
+</div>
+<div class="container-project">
+    <img src="bakery.jpg" alt="bakery" width="600px">
+    <div class="card">
+        <span class="text">Bakery Website</span>
+        <button><a href="https://lacanelabakery.glitch.me" target="_blank">View Project</a> </button>
+    </div>
+</div>
+    <div class="container-project">
+    <img src="todolist.jpg" alt="todolist"  width="600px">
+    <div class="card">
+        <span class="text">To Do List</span>
+        <button><a href="https://portfolio-todo-list.glitch.me" target="_blank">View Project</a></button>
+    </div>
+</div>
+<div class="container-project">
+    <img src="budget.jpg" alt="budget" width="600px">
+    <div class="card">
+        <span class="text">Budget Calculator</span>
+        <button><a href="https://js-project-budget-calculator.glitch.me/" target="_blank">View Project</a> </button>
+    </div>
+</div>
+<div class="container-project">
+    <img src="weather.jpg" alt="weather"width="600px">
+    <div class="card">
+        <span class="text">Weather API</span>
+        <button><a href="https://weather-using-api.glitch.me/" target="_blank"> View Project</a></button>
+    </div>
+</div>
+
+<!-- Contact form -->
+<div id="header">
+    <h2>Contact Me</h2>
+</div>
+<div  id="contact" class="container-form">
+    <div class="wrapper">
+        <div class="info">
+            <h3 class="logo">Hanna Fleming</h3>
+            <ul>
+                <li><i class="fa fa-road"></i> Orlando,Florida</li>
+                <li><i class="fa fa-phone"></i><a href="tel:+1954-636-9929">(954) 636-9929</a></li>
+                <li><i class="fa fa-envelope"></i><a href="mailto:hannafleming93@gmail.com">hannafleming93@gmail.com</a> </li>
+            </ul>
+        </div>
+        <div class="contact">
+            <form   action="https://formspree.io/f/moqzqbqk"method="POST"> 
+                <p>
+                <label>Name</label>
+                <input type="text" name="name">
+            </p>
+            <p>
+                <label>Company</label>
+                <input type="text" name="name">
+            </p>
+            <p>
+                <label>Email</label>
+                <input type="email" name="email">
+            </p>
+            <p>
+                <label>Phone Number</label>
+                <input type="text" name="phone">
+            </p>
+            <p class="full">
+                <label>Message</label>
+                <textarea name="message" rows="5"></textarea>
+                <p>
+                    <button class="full">Submit</button>
+                </p>
+            </p>
+        </form>
+    </div>
+</div>
+</div>
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+                AOS.init();
+            </script>
+            <script src="https://kit.fontawesome.com/30ff7754ac.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
